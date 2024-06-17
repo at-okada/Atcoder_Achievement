@@ -1,0 +1,24 @@
+#数字の列をリストで受け取る
+A = list(map(int, input().split()))
+
+#文字列を配列にして受け取る
+s = "example"
+char_array = [char for char in s]
+print(char_array) 
+
+＃sum()  
+
+# 例えば "aabbcc"
+T = input()  
+for j in range(len(T)) # Tの各文字を走査
+
+# 結果をスペース区切りで出力　アンパック
+print(*ret)
+出力例　1650 1950 1170 3240
+
+
+＃4文字目以降を取得:
+T = S[3:]
+
+#//: これは「フロア除算（整数除算）」を行う演算子です。割り算の結果を小数点以下を切り捨てて整数部分のみを返します。
+print(A[i] // K) 
