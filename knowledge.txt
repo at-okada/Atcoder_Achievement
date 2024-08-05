@@ -1,0 +1,30 @@
+#数字の列をリストで受け取る
+A = list(map(int, input().split()))
+
+#数字の列をリストで受け取り値を１ずつ減らす
+A = list(map(lambda x: int(x) - 1, input().split()))
+
+#分割
+N, T, P= map(int, input().strip().split())
+#普通にリスト
+L = list(map(int, input().split()))
+#文字列
+S = [input().strip() for _ in range(N)]
+
+# 例えば "aabbcc"
+T = input()  
+for j in range(len(T)) # Tの各文字を走査
+
+# 結果をアンパックで出力
+print(*ret)
+
+＃4文字目以降を取得:
+T = S[3:]
+
+#整数除算
+print(A[i] // K) 
+
+#max関数便利
+wait = max(0, end[i] - T[i + 1])
+
+A.sort(reverse=True)

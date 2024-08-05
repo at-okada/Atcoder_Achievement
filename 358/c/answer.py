@@ -3,7 +3,9 @@ S = [input().strip() for _ in range(N)]
 
 buy_list=[0]*M
 store_list=[]
+#bit全探索
 for i in range(2**N):
+    #Nを数える
     for j in range(N):
         if i>>j & 1:
             for idx,check in enumerate(S[j]):
@@ -12,5 +14,7 @@ for i in range(2**N):
             
     if buy_list == [1]*M:
         store_list.append(bin(i).count('1'))
+
     buy_list = [0]*M
+    
 print(min(store_list))

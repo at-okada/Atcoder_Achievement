@@ -1,9 +1,4 @@
-8 6
-xxoxxo
-xxoxxx
-xoxxxx
-xxxoxx
-xxoooo
-xxxxox
-xoxxox
-oxoxxo
+3 5
+oooxx
+xooox
+xxooo
